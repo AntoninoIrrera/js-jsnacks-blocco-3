@@ -7,7 +7,7 @@
 */
 
 
-const numeri = [1,2,3,4,5];
+const numeri = [1,2,3,4,5,2,2,2,2,2,2,2,2,2,22,2,2,2];
 
 const lettere = ["a","b","c","d","e","f","g","h"];
 
@@ -19,7 +19,11 @@ console.log(lettere);
 
 while(lettere.length != numeri.length){
     
-    numeri.push(2);
+    if(numeri.length < lettere.length){
+        numeri.push(2);
+    }else if(lettere.length < numeri.length){
+        lettere.push("a");
+    }
 
 }
 
