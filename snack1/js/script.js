@@ -9,8 +9,18 @@
 
 let numero = 0;
 
-do{ 
+// do{ 
 
-   numero = parseInt(prompt("inserire un numero tra 1 e 10"));
+//    numero = parseInt(prompt("inserire un numero tra 1 e 10"));
     
-}while(numero > 10 || numero < 1)
+// }while(numero > 10 || numero < 1)
+
+
+while(numero > 10 || numero <1){
+
+    numero = parseInt(prompt("inserire un numero tra 1 e 10"));
+
+
+}
+
+console.log(numero)
