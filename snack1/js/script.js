@@ -7,13 +7,10 @@
 
 */
 
-let i = 0;
+let numero = 0;
 
+do{ 
 
-while(i != 5){
-
-    i = parseInt(prompt("inserire un numero tra 1 e 10"));
+   numero = parseInt(prompt("inserire un numero tra 1 e 10"));
     
-}
-
-console.log(i);
+}while(numero > 10 || numero < 1)
