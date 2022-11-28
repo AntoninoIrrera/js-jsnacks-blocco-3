@@ -14,18 +14,36 @@ const numeri = [];
 let somma = 0;
 
 let i = 0;
-do{ 
+
+// do{ 
     
 
 
+//     numeri.push(parseInt(prompt("inserisci un numero")));
+
+//     somma = somma + numeri[i]
+
+//     i++;
+
+
+// }while(somma < 50);
+
+
+while(somma < 50){
     numeri.push(parseInt(prompt("inserisci un numero")));
 
     somma = somma + numeri[i]
 
     i++;
 
+}
 
-}while(somma < 50);
+
+
+
+
+
+
 
 
 console.log(somma);
