@@ -21,7 +21,7 @@ while(lettere.length != numeri.length){
     
     if(numeri.length < lettere.length){
         numeri.push(2);
-    }else if(lettere.length < numeri.length){
+    }else {                 //  if(lettere.length < numeri.length)
         lettere.push("a");
     }
 
