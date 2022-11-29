@@ -10,11 +10,11 @@
 const numero = [1,2,3,4,5,5,6,7,8,8,5,3,2,34,23,4];
 let somma = 0;
 
-function getSumOfArrayElements (){
+function getSumOfArrayElements (lista){
     
-    for(let i = 0; i < numero.length; i++){
+    for(let i = 0; i < lista.length; i++){
         
-        somma = somma + numero[i];
+        somma = somma + lista[i];
     };
 
     return somma;
@@ -24,4 +24,4 @@ function getSumOfArrayElements (){
 const sommaFinale = getSumOfArrayElements;
 
 
-console.log(sommaFinale());
+console.log(sommaFinale(numero));
