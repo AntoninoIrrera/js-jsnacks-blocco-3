@@ -20,6 +20,8 @@ while (sumArray.length != names.length * 2) {
     sumArray.push(names[i]);
     sumArray.push(lastnames[i]);
 
+
+    // sumArray.push(names[i], lastnames[i])
     i++;
 }
 
