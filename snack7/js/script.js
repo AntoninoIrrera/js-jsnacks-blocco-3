@@ -41,7 +41,7 @@ for(let i = 0; i < array.length; i++){
         p.append(array[i]);
     }else{
         pari.append(p);
-        p.append(array[i])
+        p.append(array[i]);
     }
 
 
