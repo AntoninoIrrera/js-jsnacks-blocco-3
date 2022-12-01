@@ -23,14 +23,51 @@ function numeriCasuali(numMin, numMax){
     return numeroCasuale;
 }
 
+/*
+
 for(let i = 0; i < 10; i++){
 
-    const numeroCasuale = numeriCasuali(0, 19);
+    let numeroCasuale = numeriCasuali(0, numeri.length - 1);
+
+    console.log(numeroCasuale);
 
 
-    numeriDopo.push(numeri[numeroCasuale]);
+
+    if(!numeriDopo.includes(numeri[numeroCasuale])){
+        
+        numeriDopo.push(numeri[numeroCasuale]);
+    
+    }else{
+        i--;
+    }
 
 
 }
+
+
+console.log(numeriDopo);
+
+*/
+
+
+
+while(numeriDopo.length < 10){
+    
+    
+    let numeroCasuale = numeriCasuali(0, numeri.length - 1);
+
+    console.log(numeroCasuale);
+    
+    
+    
+    if (!numeriDopo.includes(numeri[numeroCasuale])) {
+        
+        numeriDopo.push(numeri[numeroCasuale]);
+        
+    }
+    
+    
+}
+
 
 console.log(numeriDopo);
